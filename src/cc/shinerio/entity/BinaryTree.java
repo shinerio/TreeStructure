@@ -129,7 +129,7 @@ public class BinaryTree<K extends Comparable<K>, V> {
 				node.key=replace.key;
 				node.attach = replace.attach;
 				remove(node.key,node.right);
-			}//单个孩子节点
+			}//单个孩子节点或叶节点
 			else{
 				node=node.left==null?node.right:node.left;
 			}
