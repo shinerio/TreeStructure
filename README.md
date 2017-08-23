@@ -6,7 +6,7 @@
 
 二叉树类似下图
 
-![image](https://github.com/shinerio/TreeStructure/mater/images/binarytree.png)
+![image](https://github.com/shinerio/TreeStructure/blob/master/images/binarytree.png)
 
 ### 2.1.添加节点
 
@@ -28,4 +28,4 @@
 
 ### 2.5.删除节点
 
-![image](https://github.com/shinerio/TreeStructure/mater/images/removebinarynode.png)
+![image](https://github.com/shinerio/TreeStructure/blob/mater/images/removebinarynode.png)
