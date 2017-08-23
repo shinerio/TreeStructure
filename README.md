@@ -28,4 +28,4 @@
 
 ### 2.5.删除节点
 
-![image](https://github.com/shinerio/TreeStructure/blob/mater/images/removebinarynode.png)
+![image](https://github.com/shinerio/TreeStructure/blob/master/images/removebinarynode.png)
