@@ -44,12 +44,12 @@ public class AVLTree<K extends Comparable<K>, V> {
 		}else{
 			node.attach.add(value);   //附加域添加值
 		}
-		//计算节点高度,左右子树最深的加1，业节点树高0
+		//计算节点高度,左右子树最深的加1，叶节点树高0
 		node.height = Math.max(getHeight(node.right), getHeight(node.left))+1; 
 		return node;
 	}
 	/**
-	 * 旋转方法因为插入时自动进行调整,不可单独使用
+	 * 旋转只能在递归进行其他操作时自动进行调整，这样可以递归重新建立链接
 	 * @param node 平衡因子绝对值大于二的点
 	 * @return 调整部分二叉树的根节点
 	 */
