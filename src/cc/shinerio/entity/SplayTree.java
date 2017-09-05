@@ -3,10 +3,6 @@ package cc.shinerio.entity;
 public class SplayTree<T extends Comparable<T>> {
 	public SplayNode<T> root;
 
-	private void splay(T key) {
-		root = splay(root, key);
-	}
-
 	private SplayNode<T> splay(SplayNode<T> node, T key) {
 		if (node == null) {
 			return null;
